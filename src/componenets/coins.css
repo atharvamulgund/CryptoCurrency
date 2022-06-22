@@ -46,9 +46,41 @@
 .coin-name{
     /* margin-left:-4rem; */
 }
-
+@media screen and (max-width:1024px) {
+    .heading{
+        gap: 9rem;
+    }
+}
 @media screen and (max-width:786px) {
     .hide{
         display: none;
+    }
+    .heading{
+        
+        gap: 11rem;
+    }
+}
+@media screen and (max-width:486px){
+    .heading{
+        
+        gap: 5rem;
+    }
+    .coin-row{
+        gap: 2rem;
+    }
+}
+@media screen and (max-width:386px){
+    .heading{
+        
+        gap: 4rem;
+    }
+}
+@media screen and (max-width:326px){
+    .heading{
+        gap: 3rem;
+    }
+    .coin-row{
+        gap: 1rem;
+        font-size: 12px;
     }
 }
